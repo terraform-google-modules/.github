@@ -31,7 +31,7 @@ body:
   type: 'textarea'
   attributes:
     label: 'Terraform Configuration'
-    description: 'Paste your reproducible Terraform configuration including any module and version constraints, removing any sensitive values.'
+    description: 'Paste your reproducible Terraform configuration including all module and version constraints, removing any sensitive values.'
     render: 'hcl'
   validations:
     required: true
